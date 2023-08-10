@@ -1,0 +1,97 @@
+.pokeid{
+  box-shadow: rgba(0, 0, 0, 0.24) 2px 3px 8px;
+  width: 100%;
+  max-width: 80rem;
+  display: grid;
+  justify-content: center;
+}
+.pokeid-header{
+  margin-top: 7rem;
+  height: 10rem;
+  width: 70vw;
+  aspect-ratio: 2;
+  position: relative;
+}
+.pokeid-img{
+  position: absolute;
+  top: -7rem;
+  left: 35%;
+  width: 100%;
+  max-width: 15rem;
+}
+.pokeid-section{
+  text-align: center;
+}
+.pokeid-name{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+.pokeid-infobox{
+  padding-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 4.5rem;
+}
+.pokeid-info{
+  font-size:.9rem;
+}
+/* TYPES & ABILITIES */
+
+.pokeid-box{
+  display: flex;
+  justify-content: space-evenly; 
+  margin-top: 3rem;
+}
+.pokeid-g{
+  display: flex;
+  gap: 4rem;
+  padding-top: 1.5rem;
+}
+.pokeid-typeinfo{
+  background-color: #3a3636;
+  width: 8rem;
+  padding: .7rem 0;
+  color: white;
+}
+.pokeid-abilityinfo{
+  border: 1px solid gray;
+  width: 8rem;
+  padding: .7rem 0;
+}
+.pokeid-statsbox{
+  text-align: left;
+  padding: 2rem;
+}
+.pokeid-statsdata{
+  display: flex;
+  justify-content: space-between;
+}
+.pokeid-statsname{
+  text-transform: capitalize;
+  padding: 1rem 1rem;
+}
+.pokeid-statsnum{
+  padding: 1rem 0;
+}
+.pokeid-statsbar{
+  width: 100%;
+  background-color: orange;
+  height: 1.3rem;
+}
+/*MOVE*/
+.pokeid-movesection{
+  padding: 3rem 3rem;
+  line-height: 3rem;
+}
+.pokeid-move{
+  margin: .5rem;
+  float: left;
+  word-wrap: nowrap;
+}
+.pokeid-movename{
+  border-radius: 15px;
+  background-color: #bdbdbd;
+  padding: .5rem;
+}

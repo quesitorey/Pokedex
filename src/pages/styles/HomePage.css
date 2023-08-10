@@ -1,0 +1,42 @@
+.home-container{
+  display: grid;
+  justify-content: center;
+}
+.home-image{
+  padding-top: 7rem;
+  width: 100%; 
+}
+.home-title{
+  color: red;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0 1rem;
+}
+.home-p,
+.home-form{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.home-input{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  padding: 1rem 5rem 1rem 1rem;
+}
+.home-button{
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.home-button:hover{
+  background-color: #e60000;
+}
+.home-redbox{
+  background-color: red;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}

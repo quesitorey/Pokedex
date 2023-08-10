@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizong: border-box;
+}
+html{
+  font-family: 'Ubuntu', sans-serif;
+}
+ul{
+  list-style: none;
+}
+img{
+  display: block;
+}
+input{
+  font-family: inherit;
+  outline: none;
+}
+button{
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+}
+#replitBadge{
+  display: none;
+}
